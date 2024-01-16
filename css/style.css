@@ -75,7 +75,159 @@ nav{
 .header_input{
     display: flex;
     justify-content: center;
-    width: 8header_input00px;
     height: 84px;
     background-color: #FFFFFF;
 }
+
+.destination_section{
+    margin-top: 100px;
+}
+
+.destination_title h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: mulish;
+    font-weight: bold;
+}
+
+.destination_title p{
+    text-align: center;
+    font-size: 16px;
+    color: #424247;
+    padding-bottom: 20px;
+}
+
+.image_section_top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image_section_top_left{
+    background: url(../img/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 300px;
+    padding: 10px;
+}
+
+.image_section_top_left h4{
+    text-align: center;
+    padding-top: 100px;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.image_section_top_right{
+    background: url(../img/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    padding: 10px;
+    width: 570px;
+    height: 300px;
+}
+
+.image_section_top_right h4{
+    text-align: center;
+    padding-top: 100px;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+
+.image_section_middle{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+
+.image_section_bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image_section_middle_left{
+    background: url(../img/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 350px;
+    height: 286px;
+}
+
+.image_section_middle_left h4{
+    text-align: center;
+    padding-top: 100px;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.image_section_middle_middle{
+    background: url(../img/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 470px;
+    height: 286px;
+}
+
+.image_section_middle_middle h4{
+    text-align: center;
+    padding-top: 100px;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.image_section_middle_right{
+    background: url(../img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 370px;
+    height: 286px;
+}
+
+.image_section_middle_right h4{
+    text-align: center;
+    padding-top: 100px;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.image_section_bottom{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.image_section_buttom_left{
+    background: url(../img/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 600px;
+    height: 300px;
+}
+
+.image_section_buttom_left h4{
+    text-align: center;
+    padding-top: 100px;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.image_section_buttom_right{
+    background: url(../img/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    width: 690px;
+    height: 300px;
+}
+
+.image_section_buttom_right h4{
+    text-align: center;
+    padding-top: 100px;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
