@@ -59,7 +59,7 @@ nav{
 
 .heading_title h1{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     font-size: 64px;
     font-family: mulish;
     font-weight: bold;
@@ -70,17 +70,52 @@ nav{
 .heading_title p{
     text-align: center;
     color: white;
+    width: 50%;
+    margin-left: 200px;
 }
 
 .header_input{
     display: flex;
     justify-content: center;
     height: 84px;
-    background-color: #FFFFFF;
+    background-color: #ffffff4d;
+    width: 50%;
+    margin-left: 250px;
+}
+
+.input_section{
+    padding: 10px;
+}
+.input_section input{
+    width: 100px;
+    height: 40px;
+}
+
+.input_section select{
+    width: 100px;
+    height: 45px;
+}
+
+.button_section{
+    padding: 10px;
+}
+
+.button_section button{
+    width: 130px;
+    height: 45px;
+    background-color: #FF5400;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+..button_section button img{
+    color: #FFFFFF;
 }
 
 .destination_section{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .destination_title h1{
@@ -316,14 +351,8 @@ nav{
 
 
 
-.newslatter_input{
- 
-}
 
-.image_section{
-    background-image: url(../img/Rectangle\ 8\ \(1\).png);
-    background-repeat: no-repeat;
-}
+
 
 .newslatter{
     display: flex;
