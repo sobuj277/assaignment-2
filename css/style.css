@@ -81,23 +81,33 @@ nav{
     background-color: #ffffff4d;
     width: 50%;
     margin-left: 250px;
+    border-radius: 10px;
 }
 
 .input_section{
     padding: 10px;
+    padding-top: 20px;
 }
 .input_section input{
     width: 100px;
-    height: 40px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    color: #424247;
+    padding-left: 5px;
 }
 
 .input_section select{
     width: 100px;
     height: 45px;
+    border-radius: 5px;
+    border: none;
+    color: #424247;
 }
 
 .button_section{
     padding: 10px;
+    padding-top: 20px;
 }
 
 .button_section button{
@@ -110,8 +120,49 @@ nav{
     font-size: 17px;
 }
 
-..button_section button img{
+.button_section button img{
     color: #FFFFFF;
+}
+
+.about_section{
+    display: flex;
+    margin-top: 80px;
+}
+
+.about_section_left{
+    padding-right: 30px;
+}
+
+.about_heading h1{
+    text-align: center;
+    font-family: mulish;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.about_des p{
+    color: #424247;
+    padding: 20px;
+}
+
+.about_des li{
+    color: #424247;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.about_button{
+    margin-left: 300px;
+}
+
+.about_button button{
+    width: 130px;
+    height: 45px;
+    background-color: #FF5400;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
 }
 
 .destination_section{
@@ -349,14 +400,15 @@ nav{
     border: 1px solid #ff550079;
 }
 
-
-
-
-
+.newslatter_section{
+    width: 100px;
+    height: 500px;
+    background-color: #424247;
+}
 
 .newslatter{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
